@@ -28,8 +28,8 @@ headers = {"User-Agent" : "https://github.com/awfuldynne", "From" : "millsea0@uw
 
 ###### Links to API Documentation
 
-|API | Documentation | Endpoint | Date Range |
-|--------------------------------|
+| API | Documentation | Endpoint | Date Range |
+|------ | ---------- | -------- | --------|
 |Pagecounts | [Pagecounts Documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts) | [RESTBase Reference](https://wikimedia.org/api/rest_v1/)| Jan 2008 - July 2016 |
 |Pageviews | [Pageview Documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews) | [RESTBase Reference](https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end)| July 2015 - Present Day |
 
@@ -42,7 +42,7 @@ headers = {"User-Agent" : "https://github.com/awfuldynne", "From" : "millsea0@uw
 ###### Structure of clean_data/en-wikipedia_traffic_200801-201709.csv
 
 | Column | Description | Value |
-|-----------------------|
+|------- | -------- | -------- |
 | year | Four digit representation of year | YYYY |
 | month | Two digit representation of month | MM |
 | pagecount_all_views | Total count of all views from Pagecount API | num_views |
